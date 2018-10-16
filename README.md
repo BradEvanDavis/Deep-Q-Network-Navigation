@@ -17,8 +17,11 @@
     </div>
   <h3>Requirements</h3>
     <div>
-      <p>First ensure that you have a package manager such as anaconda and an environment that meets requirements listed within requirements within this git repo</p>
-      <p>Next refer to https://pytorch.org/get-started/locally/ to install PyTorch and any additional needed packages</p>
+      <p>First ensure that you have a package manager such as anaconda and an environment that meets requirements listed within requirements.txt within my git repo</p>
+      <p>Follow instructions from the UDACITY github repo located at https://github.com/udacity/deep-reinforcement-learning#dependencies to make sure your python environment is setup correctly with all the packages you need to get things running.</p>
+    </div>
+  <h3>Learn the Code, Run the Code.</h3>
+    <div>
       <ol>
         <li>Familiarize your self with the environment, action, and state spaces</li>
         <li>Define variables (included are what I used)</li>
