@@ -4,7 +4,8 @@
   <h2>Introduction</h2>
     <div>
       <p>The purpose of this navigation project is to train an agent to navigate and collect bannanas in a large open square world</p>
-      <p>Eachtime the agent collects a yellow banana the agent is rewarded with +1 reward, however, if a blue banana is picked up the agent then receives a score of -1.  Throughout this environment the goal of the game is to select a strategy that enables the agent to maximize the number of yellow bananas that it eats which minimizing the number of blue bananas that it stumbles across</p>
+      <p>Eachtime the agent collects a yellow banana the agent is rewarded with +1 reward, however, if a blue banana is picked up the agent then receives a score of -1.</p>
+      <p>Throughout this environment the goal of the game is to select a strategy that enables the agent to maximize the number of yellow bananas that it eats which minimizing the number of blue bananas that it stumbles across</p>
       <p>Overall, if each state space has 37 dimensions and contains the agents velocity, and the ray based perception of objects around the agent's forward direction.  During this time the agent must determine the best set of actions to take.  4 discrete actions that are available include the following</p>
       <ul>
         <li><b>0:</b> move forward</li>
@@ -27,8 +28,8 @@
         <li>Define variables (included are what I used)</li>
         <li>Become acquainted with the fully connected neural net used within the QNetwork class</li>
         <li>Refer to the Agent class to view Step, Action, and Learning methods for the Deep Q Network's overall architecture</li>
-        <li>Finally, the DQN class brings the previous classes together in order to train the agent using Deep Q learning.
-        <li>After reviewing relevant class train the agent to the environment by creating a training instance of dqn class from the Agent class</li>
-        <li>Once done training the network next steps can include tyring different implementations such as double DQN, dueling DQN, or even Rainbow!</p>
+        <li>Finally, the dqn class brings the previous classes together in order to train the agent using Deep Q learning.
+        <li>After reviewing relevant classes you can  train the agent to the environment by creating a training instance of the dqn class from the Agent class</li>
+        <li>Once done training the network next steps can include trying different implementations such as double DQN, dueling DQN, or even Rainbow!</p>
       </ol>
     </div>
